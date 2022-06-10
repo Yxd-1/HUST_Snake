@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jun  8 19:41:10 2022
+# Process ID: 2804
+# Current directory: E:/snake_1/snake_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1756 E:\snake_1\snake_1\snake_1.xpr
+# Log file: E:/snake_1/snake_1/vivado.log
+# Journal file: E:/snake_1/snake_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/snake_1/snake_1/snake_1.xpr
+INFO: [Project 1-313] Project file moved from 'F:/snake_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado2019.1/Vivado/2019.1/data/ip'.
+CRITICAL WARNING: [Common 17-1649] The Vivado message database 'E:/snake_1/snake_1/snake_1.runs/snake_synth_1/vivado.pb' contains 21944 messages. Restoring all messages from this message database will impact Vivado performance, so only WARNING, CRITICAL WARNING, and ERROR messages will be restored. To restore all messages from this file use the tcl command 'set_param messaging.loadPbLimit 21945' and re-open the project.
+open_project: Time (s): cpu = 00:00:54 ; elapsed = 00:00:33 . Memory (MB): peak = 949.574 ; gain = 275.160
+update_compile_order -fileset sources_1
+file copy -force E:/snake_1/snake_1/snake_1.runs/impl_1/snake_wrapper.sysdef E:/snake_1/snake_1/snake_1.sdk/snake_wrapper.hdf
+
+launch_sdk -workspace E:/snake_1/snake_1/snake_1.sdk -hwspec E:/snake_1/snake_1/snake_1.sdk/snake_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace E:/snake_1/snake_1/snake_1.sdk -hwspec E:/snake_1/snake_1/snake_1.sdk/snake_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.

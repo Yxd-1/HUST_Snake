@@ -1,0 +1,13 @@
+com.xilinx.sdk.linkgen.prefs.snake\:.bss=mig_7series_0_memaddr
+com.xilinx.sdk.linkgen.prefs.snake\:.data=microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem
+com.xilinx.sdk.linkgen.prefs.snake\:.rodata=mig_7series_0_memaddr
+com.xilinx.sdk.linkgen.prefs.snake\:.sbss=microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem
+com.xilinx.sdk.linkgen.prefs.snake\:.sbss2=microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem
+com.xilinx.sdk.linkgen.prefs.snake\:.sdata=microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem
+com.xilinx.sdk.linkgen.prefs.snake\:.sdata2=microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem
+com.xilinx.sdk.linkgen.prefs.snake\:.text=microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem
+com.xilinx.sdk.linkgen.prefs.snake\:heap=microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem
+com.xilinx.sdk.linkgen.prefs.snake\:heap-size=1024
+com.xilinx.sdk.linkgen.prefs.snake\:stack=microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem
+com.xilinx.sdk.linkgen.prefs.snake\:stack-size=1024
+eclipse.preferences.version=1

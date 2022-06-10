@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jun  8 18:41:54 2022
+# Process ID: 1876
+# Current directory: E:/snake_1/snake_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1856 E:\snake_1\snake_1\snake_1.xpr
+# Log file: E:/snake_1/snake_1/vivado.log
+# Journal file: E:/snake_1/snake_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/snake_1/snake_1/snake_1.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace E:/snake_1/snake_1/snake_1.sdk -hwspec E:/snake_1/snake_1/snake_1.sdk/snake_wrapper.hdf
+close_project
+open_project D:/codex/vivadocode/project_6_snake_2/project_6_snake_2.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace D:/codex/vivadocode/project_6_snake_2/project_6_snake_2.sdk -hwspec D:/codex/vivadocode/project_6_snake_2/project_6_snake_2.sdk/snake_wrapper.hdf
+launch_sdk -workspace D:/codex/vivadocode/project_6_snake_2/project_6_snake_2.sdk -hwspec D:/codex/vivadocode/project_6_snake_2/project_6_snake_2.sdk/snake_wrapper.hdf
+close_project
+open_project E:/snake_1/snake_1/snake_1.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace E:/snake_1/snake_1/snake_1.sdk -hwspec E:/snake_1/snake_1/snake_1.sdk/snake_wrapper.hdf
+launch_sdk -workspace E:/snake_1/snake_1/snake_1.sdk -hwspec E:/snake_1/snake_1/snake_1.sdk/snake_wrapper.hdf
+launch_sdk -workspace E:/snake_1/snake_1/snake_1.sdk -hwspec E:/snake_1/snake_1/snake_1.sdk/snake_wrapper.hdf

@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Jun  9 22:03:37 2021
+# Process ID: 16088
+# Current directory: C:/Users/DELL/Desktop/snake/snake_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15476 C:\Users\DELL\Desktop\snake\snake_1\snake_1.xpr
+# Log file: C:/Users/DELL/Desktop/snake/snake_1/vivado.log
+# Journal file: C:/Users/DELL/Desktop/snake/snake_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/DELL/Desktop/snake/snake_1/snake_1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/DELL/Desktop/微机原理综合项目贪吃蛇/snake_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2018.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'snake.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+snake_clk_wiz_1_0
+snake_axi_gpio_2_0
+snake_microblaze_0_0
+snake_axi_uartlite_0_0
+snake_auto_pc_5
+snake_mdm_1_0
+snake_xbar_0
+snake_auto_ds_2
+snake_microblaze_0_axi_periph_0
+snake_axi_gpio_1_0
+snake_dlmb_bram_if_cntlr_0
+snake_ilmb_bram_if_cntlr_0
+snake_axi_gpio_0_0
+snake_auto_us_2
+snake_auto_cc_0
+snake_axi_intc_0_0
+snake_auto_pc_6
+snake_axi_timer_0_0
+snake_auto_ds_6
+snake_auto_ds_5
+snake_auto_ds_4
+snake_auto_pc_4
+snake_auto_ds_3
+snake_auto_pc_3
+snake_auto_pc_2
+snake_auto_ds_1
+snake_auto_pc_1
+snake_auto_ds_0
+snake_auto_pc_0
+snake_auto_us_1
+snake_auto_pc_7
+snake_auto_us_0
+
+open_project: Time (s): cpu = 00:01:30 ; elapsed = 00:01:04 . Memory (MB): peak = 1104.012 ; gain = 347.180
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun  9 22:07:04 2021...

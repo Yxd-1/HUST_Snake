@@ -1,0 +1,399 @@
+/*
+ * greedysnake.c
+ *
+ *  Created on: 2019??6??10??
+ *      Author: lenovo
+ */
+#include "stdio.h"
+#include "stdlib.h"
+
+#include "xil_io.h"
+#include "xgpio_l.h"
+#include "xtmrctr_l.h"
+#include "xintc_l.h"
+#include "xtft.h"
+#include "xparameters.h"
+#include "gameover.h"
+
+#define SCREEN_WIDTH 39	 //?????????????????????§³?????
+#define SCREEN_LENGTH 29 //??????????
+#define START_X 0		 //??????X????
+#define START_Y 0		 //??????y????
+#define ADD_NUM 16		 //????????????????§³???????????????§³????16*16
+
+#define FGCOLOR_blu 0x0000ff00 //???
+#define FGCOLOR_red 0x00ff0000 //???
+#define COLOR_BLACK 0x00000000 //???
+#define COLOR_WRITE 0xffffffff //???
+#define TFT_DEVICE_ID XPAR_TFT_0_DEVICE_ID
+#define TFT_FRAME_BASEADDR0 0X86000000
+#define TFT_FRAME_BASEADDR1 0X84000000
+
+#define Btn_UP 0x2
+#define Btn_DOWN 0x10
+#define Btn_LEFT 0x4
+#define Btn_RIGHT 0x8
+#define Btn_STOP 0x1
+
+static XTft TftInstance; //?????tft
+XTft_Config *TftConfigPtr;
+
+typedef struct snake
+{						//???????ÈÉ???????????
+	int x;				//??????
+	int y;				//??????
+	struct snake *next; //???§Ö??????
+	struct snake *pre;	//???§Ö?????
+	struct snake *end;	//???§Ö?¦Â??
+} SNAKE;
+typedef struct
+{ //???//
+	int x;
+	int y;
+} FOOD;
+
+int seed = 1; //???????????????????
+
+int count = 0; //????3????????????????
+
+int direction = 0; //???????
+enum direc
+{
+	up,
+	down,
+	left,
+	right,
+	start
+};
+
+//??????????????¦Ë   //???
+
+void My_ISR() __attribute__((interrupt_handler));
+void Button_Handler(); //???????§Ø???????
+
+void Start_Show(); //start???
+void BuildSnk();  //????????
+void RemoveSnk(); //???????
+void RemoveBomb(); //??????
+void DeleteSnack();
+void IniScreen(); //????????
+void CreatFood(); //????????????????????????
+void CreatBomb(); //???????
+int Eated(); //??????
+int Bombed(); //??????
+int GameOver(); //?§Ø???????????
+void GameOver_Show(); //???????
+
+int button_status; //??????
+int sw_status;	   //??????
+int main()
+{
+	//?§Ø?????
+	Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0Xffff);							 //?Ú…??????????
+	Xil_Out32(XPAR_AXI_GPIO_2_BASEADDR + XGPIO_TRI_OFFSET, 0X1f);							 //?Ú…BUTTON??????
+	Xil_Out32(XPAR_AXI_GPIO_2_BASEADDR + XGPIO_IER_OFFSET, XGPIO_IR_CH1_MASK);				 //???1?????§Ø?
+	Xil_Out32(XPAR_AXI_GPIO_2_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);	 //????GPIO?§Ø????
+	Xil_Out32(XPAR_AXI_INTC_0_BASEADDR + XIN_IER_OFFSET, XPAR_AXI_GPIO_2_IP2INTC_IRPT_MASK); //???§Ø???????????§Ø?????
+	Xil_Out32(XPAR_AXI_INTC_0_BASEADDR + XIN_MER_OFFSET, XIN_INT_MASTER_ENABLE_MASK | XIN_INT_HARDWARE_ENABLE_MASK);
+	TftConfigPtr = XTft_LookupConfig(TFT_DEVICE_ID);
+	XTft_CfgInitialize(&TftInstance, TftConfigPtr, TftConfigPtr->BaseAddress); //?????tft
+	XTft_SetFrameBaseAddr(&TftInstance, TFT_FRAME_BASEADDR0);				   //????tft??›¥?????
+	microblaze_enable_interrupts();											   //????????????????§Ø?
+
+	while (1)
+	{
+
+		// Start_Show();
+		// while(direction != start);
+
+		FOOD *fd;
+		FOOD *bomb;
+		SNAKE *head, *ptemp;
+
+		head = (SNAKE *)malloc(sizeof(SNAKE));
+		fd = (FOOD *)malloc(sizeof(FOOD));
+		bomb = (FOOD *)malloc(sizeof(FOOD));
+
+		XTft_ClearScreen(&TftInstance);
+		IniScreen(head);
+
+		bomb->x = START_X + 1;
+		bomb->y = START_X + 1;
+		CreatFood(fd, bomb, head);
+		while (1)
+		{
+			sw_status = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET); //?????????
+			if (sw_status == 0x00000000)
+				RemoveSnk(head);
+			else
+			{
+				ptemp = (SNAKE *)malloc(sizeof(SNAKE)); //??????????????????????
+
+				Button_Handler();
+
+				switch (direction)
+				{
+				case up:
+					ptemp->x = head->x;
+					ptemp->y = head->y - 1;
+					break;
+				case down:
+					ptemp->x = head->x;
+					ptemp->y = head->y + 1;
+					break;
+				case left:
+					ptemp->x = head->x - 1;
+					ptemp->y = head->y;
+					break;
+				case right:
+					ptemp->x = head->x + 1;
+					ptemp->y = head->y;
+					break;
+				}
+				if (!Eated(head, fd)) //??????????????????????????
+				{
+					ptemp->end = head->end->pre; //?????¦Â??¦Ë????????????????
+					if ((ptemp->end->x) > (head->end->x) || (ptemp->end->y) > (head->end->y))
+					{
+						XTft_FillScreen(&TftInstance, (head->end->x) * ADD_NUM, (head->end->y) * ADD_NUM, (ptemp->end->x + 1) * ADD_NUM - 1,
+										(ptemp->end->y + 1) * ADD_NUM - 1, COLOR_BLACK); //??? ?????¦Â
+					}
+					if ((ptemp->end->x) < (head->end->x) || (ptemp->end->y) < (head->end->y))
+					{
+						XTft_FillScreen(&TftInstance, (ptemp->end->x) * ADD_NUM, (ptemp->end->y) * ADD_NUM, (head->end->x + 1) * ADD_NUM - 1,
+										(head->end->y + 1) * ADD_NUM - 1, COLOR_BLACK); //??? ?????¦Â
+					}
+
+					head->end->pre->next = NULL; //????????
+					free(head->end);
+					head->end = NULL;
+				}
+				else
+				{
+					ptemp->end = head->end; //????????§Ö?????????????????????????
+					CreatFood(fd, bomb, head);
+				}
+
+				head->pre = ptemp; //????????
+				ptemp->next = head;
+				ptemp->pre = NULL;
+				head = ptemp;
+
+				if (GameOver(head)|| Bombed(head, bomb) || (head->x == START_X) || (head->x == START_X + SCREEN_WIDTH) || (head->y == START_Y) || (head->y == START_Y + SCREEN_LENGTH)) //?????????
+				{
+					BuildSnk(head);
+					XTft_ClearScreen(&TftInstance);
+					DeleteSnack(head); //???????
+					free(fd);
+					GameOver_Show();
+					return 0;
+				}
+				BuildSnk(head);
+				int i, j;
+				for (i = 0; i < 3000 - 10 * sw_status; i++)
+					for (j = 0; j < 1000; j++)
+						; //??????????????
+			}
+		}
+	}
+	return 0;
+}
+
+void My_ISR()
+{
+	int status;
+	status = Xil_In32(XPAR_AXI_INTC_0_BASEADDR + XIN_ISR_OFFSET); //???ISR
+	if ((status & XPAR_AXI_GPIO_2_IP2INTC_IRPT_MASK) == XPAR_AXI_GPIO_2_IP2INTC_IRPT_MASK)
+		Button_Handler();										  //????????§Ø?
+	Xil_Out32(XPAR_AXI_INTC_0_BASEADDR + XIN_IAR_OFFSET, status); //§ÕIAR
+}
+
+void Button_Handler()
+{
+	button_status = Xil_In8(XPAR_GPIO_2_BASEADDR + XGPIO_DATA_OFFSET) & 0x1f; //????????????
+	if ((button_status == Btn_UP) && (direction != down))
+		direction = up;
+	if ((button_status == Btn_DOWN) && (direction != up))
+		direction = down;
+	if ((button_status == Btn_LEFT) && (direction != right))
+		direction = left;
+	if ((button_status == Btn_RIGHT) && (direction != left))
+		direction = right;
+	if (button_status == Btn_STOP)
+		direction = start;
+	Xil_Out32(XPAR_GPIO_2_BASEADDR + XGPIO_ISR_OFFSET, XGPIO_IR_MASK); //§ÕIPISR,????§Ø?
+	Xil_Out32(XPAR_AXI_INTC_0_BASEADDR + XIN_IAR_OFFSET, 0x2);		   //§ÕINTC_IAR,????§Ø???
+}
+
+void Start_Show()
+{
+
+}
+
+int Random(int n) //???????????¦Ë??
+{
+	srand(seed++);
+	return (rand() % n);
+}
+
+void BuildSnk(SNAKE *head) /*????????*/
+{
+	SNAKE *p = head;
+	while (p != NULL)
+	{
+		XTft_FillScreen(&TftInstance, (p->x) * ADD_NUM, (p->y) * ADD_NUM, (p->x + 1) * ADD_NUM - 1, (p->y + 1) * ADD_NUM - 1, FGCOLOR_blu); //??????????????????????????
+		p = p->next;
+	}
+}
+
+void RemoveSnk(SNAKE *head) //???????
+{
+	SNAKE *p = head;
+	while (p != NULL)
+	{
+		XTft_FillScreen(&TftInstance, (p->x) * ADD_NUM, (p->y) * ADD_NUM, (p->x + 1) * ADD_NUM - 1,
+						(p->y + 1) * ADD_NUM - 1, COLOR_BLACK); //???????????????
+		p = p->next;
+	}
+}
+
+void RemoveBomb(FOOD *bomb)
+{	
+	XTft_FillScreen(&TftInstance, (bomb->x) * ADD_NUM, (bomb->y) * ADD_NUM, (bomb->x + 1) * ADD_NUM - 1,
+					(bomb->y + 1) * ADD_NUM - 1, COLOR_BLACK); //???????????????
+}
+
+void DeleteSnack(SNAKE *head)
+{
+	SNAKE *p = head->end;
+	SNAKE *p_temp;
+	while (p != NULL)
+	{
+		p_temp = p->pre;
+		free(p); //?????????
+		p = p_temp;
+	}
+}
+
+void IniScreen(SNAKE *head) //????????
+{
+	int i;
+	SNAKE *p1, *p2;
+
+	//--------------????????????????????????????-------------------//
+	head->x = START_X + SCREEN_WIDTH / 2;
+	head->y = START_Y + SCREEN_LENGTH / 2; //???¦Ë???????§Þ?
+	head->pre = NULL;
+	p1 = head;
+	i = 0;
+	while (++i < 3) //??????????????snake???????????
+	{
+		p2 = p1;
+		p1 = (SNAKE *)malloc(sizeof(SNAKE));
+		p1->x = START_X + SCREEN_WIDTH / 2;
+		p1->y = START_Y + SCREEN_LENGTH / 2 + i;
+		p1->end = NULL;
+		p2->next = p1;
+		p1->pre = p2;
+	}
+	p1->next = NULL;
+	head->end = p1;
+	BuildSnk(head); //???????
+}
+
+void CreatFood(FOOD *fd, FOOD *bomb, SNAKE *snk) //????????????????????????
+{
+	SNAKE *p = snk;
+	int clash = 0; //??????¦Ë?????????????????
+	count ++;
+
+	while (1)
+	{
+		clash = 0;
+		fd->x = START_X + 1 + Random(SCREEN_WIDTH);	 // x??????????
+		fd->y = START_Y + 1 + Random(SCREEN_LENGTH); // y?????????
+		for (; p != NULL; p = p->next)
+		{
+			if (fd->x == p->x && fd->y == p->y && fd->x == bomb->x && fd->y == bomb->y)
+			{
+				clash = 1;
+				break;
+			}
+		}
+		if (clash == 0)
+		{
+			if(count % 3 == 0) CreatBomb(fd, bomb, snk); //????????????????????
+			break;
+		}
+	}
+	XTft_FillScreen(&TftInstance, (fd->x) * ADD_NUM, (fd->y) * ADD_NUM, (fd->x + 1) * ADD_NUM - 1,
+					(fd->y + 1) * ADD_NUM - 1, COLOR_WRITE); //??????
+}
+
+void CreatBomb(FOOD *fd, FOOD *bomb, SNAKE *snk) //????????????????????????
+{
+	SNAKE *p = snk;
+	int clash = 0; //??????¦Ë?????????????????
+	RemoveBomb(bomb);
+	while (1)
+	{
+		clash = 0;
+		bomb->x = START_X + 1 + Random(SCREEN_WIDTH);	 // x??????????
+		bomb->y = START_Y + 1 + Random(SCREEN_LENGTH); // y?????????
+		for (; p != NULL; p = p->next)
+		{
+			if (bomb->x == p->x && bomb->y == p->y && bomb->x == fd->x && bomb->y == fd->y)
+			{
+				clash = 1;
+				break;
+			}
+		}
+		if (clash == 0)
+		{
+			break;
+		}
+	}
+	XTft_FillScreen(&TftInstance, (bomb->x) * ADD_NUM, (bomb->y) * ADD_NUM, (bomb->x + 1) * ADD_NUM - 1,
+					(bomb->y + 1) * ADD_NUM - 1, FGCOLOR_red); //??????
+}
+
+int Eated(SNAKE *head, FOOD *fd) //????§Ô?????
+{
+	if (head->x == fd->x && head->y == fd->y)
+		return 1;
+	return 0;
+}
+
+int Bombed(SNAKE *head, FOOD *bomb) //????§Ô?????
+{
+	if (head->x == bomb->x && head->y == bomb->y)
+		return 1;
+	return 0;
+}
+
+int GameOver(SNAKE *head) //?§Ø???????????.
+{
+	SNAKE *p;
+	for (p = head->next; p != NULL; p = p->next)
+	{
+		if (head->x == p->x && head->y == p->y)
+			return 1;
+	}
+	return 0;
+}
+
+void GameOver_Show()
+{
+	int i, j;
+	u32 color,addr;
+	for (i = 200; i < 440; i++)
+	{
+		for (j = 150; j < 330; j++)
+		{
+			addr = (unsigned int) gImage_gameover + ((i-200)*240 + (j-150))*4;
+			color = Xil_In32(addr);
+			Xil_Out32(TFT_FRAME_BASEADDR0 + 4 * (1024 * i + j) , color);
+		}
+	}
+	// XTft_EnableDisplay(&TftInstance);
+}

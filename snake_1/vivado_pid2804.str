@@ -1,0 +1,166 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 2804
+License: Customer
+
+Current time: 	Wed Jun 08 19:41:34 CST 2022
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Available disk space: 32 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/vivado2019.1/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	D:/vivado2019.1/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	xuej
+User home directory: C:/Users/xuej
+User working directory: E:/snake_1/snake_1
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/vivado2019.1/Vivado
+HDI_APPROOT: D:/vivado2019.1/Vivado/2019.1
+RDI_DATADIR: D:/vivado2019.1/Vivado/2019.1/data
+RDI_BINDIR: D:/vivado2019.1/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/xuej/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/xuej/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/xuej/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	D:/vivado2019.1/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	E:/snake_1/snake_1/vivado.log
+Vivado journal file location: 	E:/snake_1/snake_1/vivado.jou
+Engine tmp dir: 	E:/snake_1/snake_1/.Xil/Vivado-2804-LAPTOP-0L7B1JNN
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/vivado2019.1/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: D:/vivado2019.1/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: D:/vivado2019.1/Vivado/2019.1
+XILINX_SDK: D:/vivado2019.1/SDK/2019.1
+XILINX_VIVADO: D:/vivado2019.1/Vivado/2019.1
+XILINX_VIVADO_HLS: D:/vivado2019.1/Vivado/2019.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 643 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 107 MB (+109895kb) [00:00:15]
+// [Engine Memory]: 626 MB (+504715kb) [00:00:15]
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: E:\snake_1\snake_1\snake_1.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/snake_1/snake_1/snake_1.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 683 MB. GUI used memory: 50 MB. Current time: 6/8/22, 7:41:37 PM CST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 758 MB. GUI used memory: 49 MB. Current time: 6/8/22, 7:41:52 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 819 MB (+169854kb) [00:00:43]
+// [Engine Memory]: 877 MB (+17609kb) [00:00:47]
+// WARNING: HEventQueue.dispatchEvent() is taking  7276 ms.
+// Tcl Message: open_project E:/snake_1/snake_1/snake_1.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'F:/snake_1' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado2019.1/Vivado/2019.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 909 MB. GUI used memory: 63 MB. Current time: 6/8/22, 7:42:07 PM CST
+// [GUI Memory]: 117 MB (+4845kb) [00:00:50]
+// WARNING: HEventQueue.dispatchEvent() is taking  1682 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:54 ; elapsed = 00:00:33 . Memory (MB): peak = 949.574 ; gain = 275.160 
+// Project name: snake_1; location: E:/snake_1/snake_1; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // by (cl)
+// TclEventType: FILE_SET_CHANGE
+// a (cl): Critical Messages: addNotify
+// [Engine Memory]: 962 MB (+43043kb) [00:00:54]
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cl)
+// TclEventType: DG_GRAPH_STALE
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+// Tcl Message: update_compile_order -fileset sources_1 
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 977 MB. GUI used memory: 63 MB. Current time: 6/8/22, 7:42:27 PM CST
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+// Elapsed time: 10 seconds
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cl): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+// 'm' command handler elapsed time: 7 seconds
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (cl)
+// Tcl Message: file copy -force E:/snake_1/snake_1/snake_1.runs/impl_1/snake_wrapper.sysdef E:/snake_1/snake_1/snake_1.sdk/snake_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cl): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+dismissDialog("Launch SDK"); // aa (cl)
+// Tcl Message: launch_sdk -workspace E:/snake_1/snake_1/snake_1.sdk -hwspec E:/snake_1/snake_1/snake_1.sdk/snake_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace E:/snake_1/snake_1/snake_1.sdk -hwspec E:/snake_1/snake_1/snake_1.sdk/snake_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// HMemoryUtils.trashcanNow. Engine heap size: 977 MB. GUI used memory: 64 MB. Current time: 6/8/22, 8:12:29 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  77466 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 77708 ms. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 977 MB. GUI used memory: 59 MB. Current time: 6/8/22, 8:42:31 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  788512 ms.

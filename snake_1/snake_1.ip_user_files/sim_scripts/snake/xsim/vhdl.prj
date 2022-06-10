@@ -1,0 +1,18 @@
+vhdl xil_defaultlib  \
+"../../../bd/snake/ip/snake_microblaze_0_0/sim/snake_microblaze_0_0.vhd" \
+"../../../bd/snake/ip/snake_mdm_1_0/sim/snake_mdm_1_0.vhd" \
+"../../../bd/snake/ip/snake_rst_clk_wiz_1_100M_0/sim/snake_rst_clk_wiz_1_100M_0.vhd" \
+"../../../bd/snake/ip/snake_axi_uartlite_0_0/sim/snake_axi_uartlite_0_0.vhd" \
+"../../../bd/snake/ip/snake_dlmb_v10_0/sim/snake_dlmb_v10_0.vhd" \
+"../../../bd/snake/ip/snake_ilmb_v10_0/sim/snake_ilmb_v10_0.vhd" \
+"../../../bd/snake/ip/snake_dlmb_bram_if_cntlr_0/sim/snake_dlmb_bram_if_cntlr_0.vhd" \
+"../../../bd/snake/ip/snake_ilmb_bram_if_cntlr_0/sim/snake_ilmb_bram_if_cntlr_0.vhd" \
+"../../../bd/snake/ip/snake_axi_gpio_0_0/sim/snake_axi_gpio_0_0.vhd" \
+"../../../bd/snake/ip/snake_axi_gpio_1_0/sim/snake_axi_gpio_1_0.vhd" \
+"../../../bd/snake/ip/snake_axi_gpio_2_0/sim/snake_axi_gpio_2_0.vhd" \
+"../../../bd/snake/ip/snake_axi_intc_0_0/sim/snake_axi_intc_0_0.vhd" \
+"../../../bd/snake/ip/snake_axi_timer_0_0/sim/snake_axi_timer_0_0.vhd" \
+"../../../bd/snake/ip/snake_axi_tft_0_0/sim/snake_axi_tft_0_0.vhd" \
+"../../../bd/snake/ip/snake_rst_mig_7series_0_81M_0/sim/snake_rst_mig_7series_0_81M_0.vhd" \
+
+nosort

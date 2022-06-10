@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Auto Detect" key="snake_wrapper_hw_platform_0-device"/>
+	<item value="E:\snake_1\snake_1\snake_1.sdk\hello\Debug\hello.elf" key="snake_wrapper_hw_platform_0-microblaze_0-initElf"/>
+	<item value="snake_wrapper.bit" key="snake_wrapper_hw_platform_0-bitFile"/>
+	<item value="snake_wrapper_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="snake_wrapper.mmi" key="snake_wrapper_hw_platform_0-bmmFile"/>
+	<item value="Local" key="snake_wrapper_hw_platform_0-target"/>
+	<item value="false" key="snake_wrapper_hw_platform_0-partial_bit"/>
+</section>

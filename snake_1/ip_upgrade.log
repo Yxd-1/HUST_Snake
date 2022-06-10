@@ -1,0 +1,459 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Jun  5 19:24:17 2022
+| Host         : LAPTOP-TMRLG6GU running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'snake_xlconcat_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of snake_xlconcat_0_0 (xilinx.com:ip:xlconcat:2.1) from (Rev. 1) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Jun  5 19:24:17 2022
+| Host         : LAPTOP-TMRLG6GU running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'snake_rst_mig_7series_0_81M_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of snake_rst_mig_7series_0_81M_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Jun  5 19:24:17 2022
+| Host         : LAPTOP-TMRLG6GU running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'snake_rst_clk_wiz_1_100M_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of snake_rst_clk_wiz_1_100M_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Jun  5 19:24:17 2022
+| Host         : LAPTOP-TMRLG6GU running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'snake_mig_7series_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of snake_mig_7series_0_0 from xilinx.com:ip:mig_7series:4.1 to xilinx.com:ip:mig_7series:4.2 (Rev. 1)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'snake_mig_7series_0_0'. These changes may impact your design.
+
+
+-Upgraded port 's_axi_araddr' width 27 differs from original width 32
+
+-Upgraded port 's_axi_awaddr' width 27 differs from original width 32
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Jun  5 19:24:17 2022
+| Host         : LAPTOP-TMRLG6GU running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'snake_microblaze_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of snake_microblaze_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 17) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Jun  5 19:24:17 2022
+| Host         : LAPTOP-TMRLG6GU running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'snake_microblaze_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of snake_microblaze_0_0 from xilinx.com:ip:microblaze:10.0 (Rev. 6) to xilinx.com:ip:microblaze:11.0 (Rev. 1)
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_BASE_VECTORS to value 0x0000000000000000 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Jun  5 19:24:17 2022
+| Host         : LAPTOP-TMRLG6GU running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'snake_mdm_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of snake_mdm_1_0 (xilinx.com:ip:mdm:3.2) from (Rev. 13) to (Rev. 16)
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_M_AXIS_ID_WIDTH to value 7 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Jun  5 19:24:17 2022
+| Host         : LAPTOP-TMRLG6GU running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'snake_lmb_bram_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of snake_lmb_bram_0 (xilinx.com:ip:blk_mem_gen:8.4) from (Rev. 1) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Jun  5 19:24:17 2022
+| Host         : LAPTOP-TMRLG6GU running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'snake_ilmb_bram_if_cntlr_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of snake_ilmb_bram_if_cntlr_0 (xilinx.com:ip:lmb_bram_if_cntlr:4.0) from (Rev. 14) to (Rev. 16)
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_MASK1 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK2 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK3 to value 0x0000000000800000 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Jun  5 19:24:17 2022
+| Host         : LAPTOP-TMRLG6GU running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'snake_dlmb_bram_if_cntlr_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of snake_dlmb_bram_if_cntlr_0 (xilinx.com:ip:lmb_bram_if_cntlr:4.0) from (Rev. 14) to (Rev. 16)
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_MASK1 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK2 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK3 to value 0x0000000000800000 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Jun  5 19:24:17 2022
+| Host         : LAPTOP-TMRLG6GU running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'snake_clk_wiz_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of snake_clk_wiz_1_0 (xilinx.com:ip:clk_wiz:6.0) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Jun  5 19:24:17 2022
+| Host         : LAPTOP-TMRLG6GU running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'snake_axi_uartlite_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of snake_axi_uartlite_0_0 (xilinx.com:ip:axi_uartlite:2.0) from (Rev. 20) to (Rev. 23)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Jun  5 19:24:17 2022
+| Host         : LAPTOP-TMRLG6GU running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'snake_axi_timer_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of snake_axi_timer_0_0 (xilinx.com:ip:axi_timer:2.0) from (Rev. 18) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Jun  5 19:24:17 2022
+| Host         : LAPTOP-TMRLG6GU running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'snake_axi_tft_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of snake_axi_tft_0_0 (xilinx.com:ip:axi_tft:2.0) from (Rev. 20) to (Rev. 22)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Jun  5 19:24:17 2022
+| Host         : LAPTOP-TMRLG6GU running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'snake_axi_intc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of snake_axi_intc_0_0 (xilinx.com:ip:axi_intc:4.1) from (Rev. 10) to (Rev. 13)
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter C_IRQ_CONNECTION with default value 0 : a parameter called C_IRQ_CONNECTION already exists in axi_intc_v4_1
+Set parameter C_IVAR_RESET_VALUE to value 0x0000000000000010 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Jun  5 19:24:17 2022
+| Host         : LAPTOP-TMRLG6GU running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'snake_axi_gpio_2_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of snake_axi_gpio_2_0 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 18) to (Rev. 21)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'snake_axi_gpio_2_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'gpio2_io_i'
+
+-Upgrade has removed port 'gpio2_io_t'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Jun  5 19:24:17 2022
+| Host         : LAPTOP-TMRLG6GU running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'snake_axi_gpio_1_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of snake_axi_gpio_1_0 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 18) to (Rev. 21)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'snake_axi_gpio_1_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'gpio2_io_i'
+
+-Upgrade has removed port 'gpio2_io_t'
+
+-Upgrade has removed port 'gpio_io_i'
+
+-Upgrade has removed port 'gpio_io_t'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Jun  5 19:24:17 2022
+| Host         : LAPTOP-TMRLG6GU running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'snake_axi_gpio_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of snake_axi_gpio_0_0 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 18) to (Rev. 21)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'snake_axi_gpio_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'gpio2_io_i'
+
+-Upgrade has removed port 'gpio2_io_t'
+
+

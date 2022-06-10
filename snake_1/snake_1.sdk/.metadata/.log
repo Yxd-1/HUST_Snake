@@ -1,0 +1,2832 @@
+!SESSION 2022-06-08 19:43:01.985 -----------------------------------------------
+eclipse.buildId=2019.1
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data E:/snake_1/snake_1/snake_1.sdk
+
+This is a continuation of log file E:\snake_1\snake_1\snake_1.sdk\.metadata\.bak_0.log
+Created Time: 2022-06-08 20:17:43.856
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:43.856
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:43.860
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:43.946
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:43.946
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:43.962
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:43.970
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:44.026
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:44.026
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:44.042
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:44.052
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:44.108
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:44.109
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292A4C466A" && level == 0}], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:44.163
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292A4C466A" && level == 0}], Result: [null, ]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:44.163
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:44.163
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:44.173
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:44.173
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:44.173
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:44.273
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Result: [null, ]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:44.273
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:44.307
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:44.307
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:44.397
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Result: [null, ]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:44.397
+!MESSAGE XSCT Command: [dow E:/snake_1/snake_1/snake_1.sdk/snake/Debug/snake.elf], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:47.770
+!MESSAGE XSCT command with result: [dow E:/snake_1/snake_1/snake_1.sdk/snake/Debug/snake.elf], Result: [null, ]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:47.998
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:48.098
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Result: [null, ]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:48.098
+!MESSAGE XSCT Command: [con], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:17:48.118
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:39.527
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw E:/snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:39.537
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw E:/snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:39.537
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json E:/snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:39.547
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json E:/snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:39.547
+!MESSAGE XSCT Command: [::hsi::utils::closesw E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:39.547
+!MESSAGE XSCT command with result: [::hsi::utils::closesw E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:46.879
+!MESSAGE XSCT Command: [disconnect tcfchan#9], Thread: Thread-554
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:46.884
+!MESSAGE XSCT command with result: [disconnect tcfchan#9], Result: [null, ]. Thread: Thread-554
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-06-08 20:20:47.886
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:47.886
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:47.896
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#10]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:47.896
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:47.926
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:47.926
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:47.946
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:47.966
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.036
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.036
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==0} -index 0], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.117
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==0} -index 0], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.117
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.133
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.133
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.133
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#10]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.141
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.157
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.157
+!MESSAGE XSCT Command: [version -server], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.165
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.165
+!MESSAGE XSCT Command: [version], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.165
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.1
+SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.165
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.181
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.189
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.245
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.255
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.265
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.276
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.325
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.325
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.336
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.336
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.396
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.396
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.405
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.405
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.455
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.465
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292A4C466A" && level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.515
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292A4C466A" && level == 0}], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.515
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.515
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.515
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.525
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.525
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.615
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.615
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.646
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.646
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.756
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:48.756
+!MESSAGE XSCT Command: [dow E:/snake_1/snake_1/snake_1.sdk/snake/Debug/snake.elf], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:51.810
+!MESSAGE XSCT command with result: [dow E:/snake_1/snake_1/snake_1.sdk/snake/Debug/snake.elf], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:52.010
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:52.108
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:52.108
+!MESSAGE XSCT Command: [con], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:20:52.129
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:45.927
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw E:/snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:45.927
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw E:/snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:45.937
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json E:/snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:45.937
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json E:/snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:45.937
+!MESSAGE XSCT Command: [::hsi::utils::closesw E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:45.937
+!MESSAGE XSCT command with result: [::hsi::utils::closesw E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:51.719
+!MESSAGE XSCT Command: [disconnect tcfchan#10], Thread: Thread-599
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:51.726
+!MESSAGE XSCT command with result: [disconnect tcfchan#10], Result: [null, ]. Thread: Thread-599
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-06-08 20:21:52.723
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.723
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.739
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#11]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.739
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.766
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.766
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.783
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.783
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.838
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.838
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==0} -index 0], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.900
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==0} -index 0], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.900
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.908
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.908
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.908
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#11]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.916
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.928
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.928
+!MESSAGE XSCT Command: [version -server], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.936
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.936
+!MESSAGE XSCT Command: [version], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.936
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.1
+SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.936
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.956
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:52.956
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.009
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.009
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.102
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.102
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.152
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.152
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.162
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.162
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.212
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.212
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.234
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.235
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.283
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.283
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292A4C466A" && level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.333
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292A4C466A" && level == 0}], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.333
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.333
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.333
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.343
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.343
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.443
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.443
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.497
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.497
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.587
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:53.587
+!MESSAGE XSCT Command: [dow E:/snake_1/snake_1/snake_1.sdk/snake/Debug/snake.elf], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:56.687
+!MESSAGE XSCT command with result: [dow E:/snake_1/snake_1/snake_1.sdk/snake/Debug/snake.elf], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:56.957
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:57.057
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:57.057
+!MESSAGE XSCT Command: [con], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:21:57.073
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:25:54.997
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw E:/snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:25:55.003
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw E:/snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:25:55.004
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json E:/snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:25:55.009
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json E:/snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:25:55.010
+!MESSAGE XSCT Command: [::hsi::utils::closesw E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:25:55.012
+!MESSAGE XSCT command with result: [::hsi::utils::closesw E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:06.283
+!MESSAGE XSCT Command: [disconnect tcfchan#11], Thread: Thread-669
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:06.290
+!MESSAGE XSCT command with result: [disconnect tcfchan#11], Result: [null, ]. Thread: Thread-669
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-06-08 20:26:07.298
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.300
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.312
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#12]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.313
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.343
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.344
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.366
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.367
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.439
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.440
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==0} -index 0], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.535
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==0} -index 0], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.537
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.548
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.549
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.553
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#12]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.554
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.574
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.575
+!MESSAGE XSCT Command: [version -server], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.578
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.579
+!MESSAGE XSCT Command: [version], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.582
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.1
+SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.583
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.598
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.599
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.655
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.657
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.673
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.674
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.723
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.724
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.740
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.742
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.787
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.788
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.801
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.801
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.884
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.885
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292A4C466A" && level == 0}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.925
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292A4C466A" && level == 0}], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.926
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.933
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.934
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.937
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:07.938
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:08.012
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:08.013
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:08.089
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:08.090
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:08.161
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:08.162
+!MESSAGE XSCT Command: [dow E:/snake_1/snake_1/snake_1.sdk/snake/Debug/snake.elf], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:14.172
+!MESSAGE XSCT command with result: [dow E:/snake_1/snake_1/snake_1.sdk/snake/Debug/snake.elf], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:14.388
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:14.490
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:14.491
+!MESSAGE XSCT Command: [con], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:26:14.511
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:10.576
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw E:/snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:10.582
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw E:/snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:10.583
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json E:/snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:10.588
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json E:/snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:10.589
+!MESSAGE XSCT Command: [::hsi::utils::closesw E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:10.591
+!MESSAGE XSCT command with result: [::hsi::utils::closesw E:/snake_1/snake_1/snake_1.sdk/hello_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:15.790
+!MESSAGE XSCT Command: [disconnect tcfchan#12], Thread: Thread-720
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:15.796
+!MESSAGE XSCT command with result: [disconnect tcfchan#12], Result: [null, ]. Thread: Thread-720
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-06-08 20:28:16.793
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:16.795
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:16.806
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#13]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:16.807
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:16.834
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:16.835
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:16.855
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:16.857
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:16.927
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:16.928
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==0} -index 0], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:16.999
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==0} -index 0], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.000
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.006
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.008
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.011
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#13]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.012
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.029
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.030
+!MESSAGE XSCT Command: [version -server], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.034
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.035
+!MESSAGE XSCT Command: [version], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.037
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.1
+SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.038
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.053
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.054
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.107
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.109
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.126
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.127
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.178
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.180
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.196
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.197
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.302
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.304
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.319
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A4C466A]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.320
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.368
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.369
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292A4C466A" && level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.419
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292A4C466A" && level == 0}], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.420
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.423
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.424
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.427
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.428
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.514
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.515
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.576
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.577
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.666
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:17.667
+!MESSAGE XSCT Command: [dow E:/snake_1/snake_1/snake_1.sdk/snake/Debug/snake.elf], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:23.708
+!MESSAGE XSCT command with result: [dow E:/snake_1/snake_1/snake_1.sdk/snake/Debug/snake.elf], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:23.950
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:24.073
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C466A"} -index 0], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:24.074
+!MESSAGE XSCT Command: [con], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 20:28:24.092
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:01:41.301
+!MESSAGE XSCT Command: [disconnect tcfchan#13], Thread: Thread-758
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:01:41.310
+!MESSAGE XSCT command with result: [disconnect tcfchan#13], Result: [null, ]. Thread: Thread-758
+!SESSION 2022-06-08 21:07:04.242 -----------------------------------------------
+eclipse.buildId=2019.1
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk
+
+!ENTRY org.eclipse.ui 2 0 2022-06-08 21:07:08.831
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-08 21:07:08.831
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2022-06-08 21:07:10.396
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-08 21:07:10.396
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:26.331
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:26.332
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:26.344
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:26.374
+!MESSAGE XSCT Command: [setws D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:26.968
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:26.971
+!MESSAGE XSCT command with result: [setws D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk], Result: [null, ]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:27.018
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:33.701
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:33.704
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_1/system.hdf], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:34.191
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_1/system.hdf], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:34.342
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_2/system.hdf], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:34.971
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_2/system.hdf], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:35.007
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_2/system.hdf], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:35.016
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_2/system.hdf], Result: [null, {"device": "7a100t",
+"family": "artix7",
+"timestamp": "Mon Jun  6 12:29:03 2022",
+"vivado_version": "2019.1",
+"part": "xc7a100tcsg324-1",
+}]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:35.021
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_2/system.hdf], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:35.061
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_2/system.hdf], Result: [null, {"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_1": {"hier_name": "axi_gpio_1",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_2": {"hier_name": "axi_gpio_2",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_intc_0": {"hier_name": "axi_intc_0",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"axi_tft_0": {"hier_name": "axi_tft_0",
+"type": "axi_tft",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_timer_0": {"hier_name": "axi_timer_0",
+"type": "axi_timer",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"mig_7series_0": {"hier_name": "mig_7series_0",
+"type": "mig_7series",
+"version": "4.2",
+"ip_type": "MEMORY_CNTLR",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"rst_mig_7series_0_81M": {"hier_name": "rst_mig_7series_0_81M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"xlconcat_0": {"hier_name": "xlconcat_0",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:35.413
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_2/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:35.441
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_2/system.hdf microblaze_0], Result: [null, {"axi_gpio_0_S_AXI": {"name": "axi_gpio_0",
+"base": "0x40000000",
+"high": "0x4000FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_1_S_AXI": {"name": "axi_gpio_1",
+"base": "0x40010000",
+"high": "0x4001FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_2_S_AXI": {"name": "axi_gpio_2",
+"base": "0x40020000",
+"high": "0x4002FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_uartlite_0_S_AXI": {"name": "axi_uartlite_0",
+"base": "0x40600000",
+"high": "0x4060FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_intc_0_s_axi": {"name": "axi_intc_0",
+"base": "0x41200000",
+"high": "0x4120FFFF",
+"size": "65536",
+"slaveintf": "s_axi",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_timer_0_S_AXI": {"name": "axi_timer_0",
+"base": "0x41C00000",
+"high": "0x41C0FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_tft_0_S_AXI_MM": {"name": "axi_tft_0",
+"base": "0x44A00000",
+"high": "0x44A0FFFF",
+"size": "65536",
+"slaveintf": "S_AXI_MM",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB_Mem": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x0001FFFF",
+"size": "131072",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+"mig_7series_0_S_AXI_memaddr": {"name": "mig_7series_0",
+"base": "0x80000000",
+"high": "0x87FFFFFF",
+"size": "134217728",
+"slaveintf": "S_AXI",
+"type": "MEMORY",
+"flags": "3",
+"segment": "memaddr",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:35.528
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_2/system.hdf mdm_1], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:35.549
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_2/system.hdf mdm_1], Result: [null, {"axi_gpio_0_S_AXI": {"name": "axi_gpio_0",
+"base": "0x40000000",
+"high": "0x4000FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_1_S_AXI": {"name": "axi_gpio_1",
+"base": "0x40010000",
+"high": "0x4001FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_2_S_AXI": {"name": "axi_gpio_2",
+"base": "0x40020000",
+"high": "0x4002FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_uartlite_0_S_AXI": {"name": "axi_uartlite_0",
+"base": "0x40600000",
+"high": "0x4060FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_intc_0_s_axi": {"name": "axi_intc_0",
+"base": "0x41200000",
+"high": "0x4120FFFF",
+"size": "65536",
+"slaveintf": "s_axi",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_timer_0_S_AXI": {"name": "axi_timer_0",
+"base": "0x41C00000",
+"high": "0x41C0FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_tft_0_S_AXI_MM": {"name": "axi_tft_0",
+"base": "0x44A00000",
+"high": "0x44A0FFFF",
+"size": "65536",
+"slaveintf": "S_AXI_MM",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"mig_7series_0_S_AXI_memaddr": {"name": "mig_7series_0",
+"base": "0x80000000",
+"high": "0x87FFFFFF",
+"size": "134217728",
+"slaveintf": "S_AXI",
+"type": "MEMORY",
+"flags": "7",
+"segment": "memaddr",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:35.617
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_2/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:35.741
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_2/system.hdf microblaze_0], Result: [null, {"axi_gpio_0": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "16",
+"interface": "S_AXI",
+"fields": {"Channel-1 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "16",
+"interface": "S_AXI",
+"fields": {"Channel-1 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "16",
+"interface": "S_AXI",
+"fields": {"Channel-2 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "16",
+"interface": "S_AXI",
+"fields": {"Channel-2 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GIER": {"description": "Global Interrupt Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global Interrupt Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-1 Interrupt Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-1 Interrupt Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"axi_gpio_1": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "8",
+"interface": "S_AXI",
+"fields": {"Channel-1 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "8",
+"interface": "S_AXI",
+"fields": {"Channel-1 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "8",
+"interface": "S_AXI",
+"fields": {"Channel-2 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "8",
+"interface": "S_AXI",
+"fields": {"Channel-2 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GIER": {"description": "Global Interrupt Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global Interrupt Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-1 Interrupt Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-1 Interrupt Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"axi_gpio_2": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"Channel-1 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"Channel-1 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "6",
+"interface": "S_AXI",
+"fields": {"Channel-2 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "6",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "6",
+"interface": "S_AXI",
+"fields": {"Channel-2 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "6",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GIER": {"description": "Global Interrupt Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global Interrupt Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-1 Interrupt Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-1 Interrupt Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"axi_intc_0": {"ISR": {"description": "Interrupt Status Register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "Interrupt Status Register.
+For each bit up to number of periperhal interrupts:
+  R - Reads active interrupt signal.
+  W - No effect after MER HIE bit has been set, otherwise writes active interrupt signal.
+For remaining bits defined by number of software interrupts:
+  R - Reads software interrupt value.
+  W - Writes software interrupt value.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IPR": {"description": "Interrupt Pending Register",
+"address_offset": "0x4",
+"access": "read-only",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "Interrupt Pending Register.
+For each bit:
+  R - Reads logical AND of bits in ISR and IER.
+  W - No effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IER": {"description": "Interrupt Enable Register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "Interrupt Enable Register.
+For each bit:
+  R - Reads interrupt enable value.
+  W - Writes interrupt enable value.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IAR": {"description": "Interrupt Acknowledge Register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "Interrupt Acknowledge Register.
+For each bit:
+  W - Acknowledge interrupt.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"SIE": {"description": "Set Interrupt Enables",
+"address_offset": "0x10",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "Set Interrupt Enables
+For each bit:
+  R - Reads active interrupt.
+  W - Writing 1 enables the interrupt, writing 0 has no effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"CIE": {"description": "Clear Interrupt Enables",
+"address_offset": "0x14",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "Clear Interrupt Enables
+For each bit:
+  R - Reads active interrupt.
+  W - Writing 1 disables the interrupt, writing 0 has no effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IVR": {"description": "Interrupt Vector Register",
+"address_offset": "0x18",
+"access": "read-only",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"IVN": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Vector Number.
+  R - Reads ordinal of highest priority, enabled, active interrupt.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"MER": {"description": "Master Enable Register",
+"address_offset": "0x1C",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"ME": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master IRQ Enable.
+  0 - All interrupts disabled.
+  1 - All interrupts can be enabled.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"HIE": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Hardware Interrupt Enable.
+  0 - HW interrupts disabled.
+  1 - HW interrupts enabled.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IMR": {"description": "Interrupt Mode Register",
+"address_offset": "0x20",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "Interrupt Mode Register.
+For each bit:
+  R - Reads interrupt mode.
+  W - Sets interrupt mode, where 0 is normal mode and 1 is fast mode.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IVAR[0]": {"description": "Interrupt Vector Address Register 0",
+"address_offset": "0x100",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 0 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IVAR[1]": {"description": "Interrupt Vector Address Register 1",
+"address_offset": "0x104",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 1 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IVAR[2]": {"description": "Interrupt Vector Address Register 2",
+"address_offset": "0x108",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 2 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IVAR[3]": {"description": "Interrupt Vector Address Register 3",
+"address_offset": "0x10C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 3 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"axi_tft_0": {},
+"axi_timer_0": {"TCSR0": {"description": "Timer 0 Control and Status Register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"MDT0": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 0 Mode
+0 - Timer mode is generate
+1 - Timer mode is capture
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"UDT0": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Up/Down Count Timer 0
+  0 - Timer functions as up counter
+  1 - Timer functions as down counter
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"GENT0": {"access": "read-write",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Generate Signal Timer 0
+  0 - Disables external generate signal
+  1 - Enables external generate signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CAPT0": {"access": "read-write",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Capture Trigger Timer 0
+  0 - Disables external capture trigger
+  1 - Enables external capture trigger
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ARHT0": {"access": "read-write",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Auto Reload/Hold Timer 0.
+When the timer is in Generate mode, this bit determines whether the counter reloads the generate value and continues running or holds at the termination value. 
+In Capture mode, this bit determines whether a new capture trigger overwrites the previous captured value or if the previous value is held.      0 = Hold counter or capture value. The TLR must be read before providing the external capture.      1 = Reload generate value or overwrite capture value
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"LOAD0": {"access": "read-write",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Load Timer 0      0 = No load      1 = Loads timer with value in TLR0 Setting this bit loads timer/counter register (TCR0) with a specified value in the timer/counter load register (TLR0).  This bit prevents the running of the timer/counter; hence, this should be cleared alongside setting Enable Timer/ Counter (ENT0) bit in TCSR0.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENIT0": {"access": "read-write",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Interrupt for Timer 0
+Enables the assertion of the interrupt signal for this timer. Has no effect on the interrupt flag (T0INT) in TCSR0.      0 - Disable interrupt signal   1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENT0": {"access": "read-write",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Timer 0
+  0 - Disable timer (counter halts)
+  1 - Enable timer (counter runs)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"T0INT": {"access": "read-write",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 0 Interrupt
+Indicates that the condition for an interrupt on this timer has occurred. If the timer mode is capture and the timer is enabled, this bit indicates a capture has occurred. If the mode is generate, this bit indicates the counter has rolled over. Must be cleared by writing a 1.
+Read:      0 - No interrupt has occurred      1 - Interrupt has occurred  Write:      0 - No change in state of T0INT   1 - Clear T0INT (clear to 0)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"PWMA0": {"access": "read-write",
+"bit_offset": "9",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Pulse Width Modulation for Timer 0      0 - Disable pulse width modulation      1 - Enable pulse width modulation PWM requires using Timer 0 and Timer 1 together as a pair.  Timer 0 sets the period of the PWM output, and Timer 1 sets the high time for the PWM output. For PWM mode, MDT0 and MDT1 must be 0 and C_GEN0_ASSERT and C_GEN1_ASSERT must be 1.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENALL": {"access": "read-write",
+"bit_offset": "10",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable All Timers      0 - No effect on timers      1 - Enable all timers (counters run) This bit is mirrored in all control/status registers and is used to enable all counters simultaneously. Writing a 1 to this bit sets ENALL, ENT0, and ENT1. 
+Writing a 0 to this register clears ENALL but has no effect on ENT0 and ENT1. 
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CASC": {"access": "read-write",
+"bit_offset": "11",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable cascade mode of timers      0 - Disable cascaded operation      1 - Enable cascaded operation Cascaded operation requires using Timer 0 and Timer 1 together as a pair.  The counting event for the Timer 1 is when the Timer 0 rolls over from all 1s to all 0s or vice-versa when counting down.
+TLR0 and TLR1 are used for lower 32-bit and higher 32-bit respectively. Similarly, TCR0 contains lower 32-bits for the 64-bit counter and TCR1 contains the higher 32-bits.
+Only TCSR0 is valid for both the timer/counters in this mode.
+This CASC bit must be set before enabling the timer/counter.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"TLR0": {"description": "Timer 0 Load Register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCLR0": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Load Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"TCR0": {"description": "Timer 0 Counter Register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCR0": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"TCSR1": {"description": "Timer 1 Control and Status Register",
+"address_offset": "0x10",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"MDT1": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 1 Mode
+  0 - Timer mode is generate
+  1 - Timer mode is capture
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"UDT1": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Up/Down Count Timer 1
+  0 - Timer functions as up counter
+  1 - Timer functions as down counter
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"GENT1": {"access": "read-write",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Generate Signal Timer 1
+  0 - Disables external generate signal
+  1 - Enables external generate signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CAPT1": {"access": "read-write",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Capture Trigger Timer 1
+  0 - Disables external capture trigger
+  1 - Enables external capture trigger
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ARHT1": {"access": "read-write",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Auto Reload/Hold Timer 1.
+When the timer is in Generate mode, this bit determines whether the counter reloads the generate value and continues running or holds at the termination value. 
+In Capture mode, this bit determines whether a new capture trigger overwrites the previous captured value or if the previous value is held.
+0 = Hold counter or capture value. The TLR must be read before providing the external capture.   
+1 = Reload generate value or overwrite capture value
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"LOAD1": {"access": "read-write",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Load Timer 1      0 = No load      1 = Loads timer with value in TLR1 Setting this bit loads timer/counter register (TCR1) with a specified value in the timer/counter load register (TLR1).  This bit prevents the running of the timer/counter; hence, this should be cleared alongside setting Enable Timer/ Counter (ENT1) bit in TCSR1.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENIT1": {"access": "read-write",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Interrupt for Timer 1
+Enables the assertion of the interrupt signal for this timer. Has no effect on the interrupt flag (T1INT) in TCSR1.      0 - Disable interrupt signal      1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENT1": {"access": "read-write",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Timer 1
+  0 - Disable timer (counter halts)
+  1 - Enable timer (counter runs)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"T1INT": {"access": "read-write",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 1 Interrupt
+Indicates that the condition for an interrupt on this timer has occurred. If the timer mode is capture and the timer is enabled, this bit indicates a capture has occurred. If the mode is generate, this bit indicates the counter has rolled over. Must be cleared by writing a 1.
+Read:      0 - No interrupt has occurred      1 - Interrupt has occurred  Write:      0 - No change in state of T0INT      1 - Clear T1INT (clear to 0)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"PWMA1": {"access": "read-write",
+"bit_offset": "9",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Pulse Width Modulation for Timer 1      0 - Disable pulse width modulation      1 - Enable pulse width modulation  PWM requires using Timer 0 and Timer 1 together as a pair. Timer 0 sets the period of the PWM output, and Timer 1 sets the high time for the PWM output. For PWM mode, MDT0 and MDT1 must be 0.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENALL": {"access": "read-write",
+"bit_offset": "10",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable All Timers      0 - No effect on timers      1 - Enable all timers (counters run)  This bit is mirrored in all control/status registers and is used to enable all counters simultaneously. Writing a 1 to this bit sets ENALL, ENT0, and ENT1. Writing a 0 to this register clears ENALL but has no effect on ENT0 and ENT1. 
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"TLR1": {"description": "Timer 1 Load Register",
+"address_offset": "0x14",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCLR1": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Load Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"TCR1": {"description": "Timer 1 Counter Register",
+"address_offset": "0x18",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCR1": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"axi_uartlite_0": {"RX_FIFO": {"description": "Receive data FIFO",
+"address_offset": "0x0",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_DATA": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Receive Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"TX_FIFO": {"description": "Transmit data FIFO",
+"address_offset": "0x4",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TX_DATA": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Transmit Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"CTRL_REG": {"description": "UART Lite control register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RST_TXFIFO": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the transmit FIFO
+Writing a 1 to this bit position clears the transmit FIFO
+  0 - Do nothing
+  1 - Clear the transmit FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RST_RXFIFO": {"access": "write-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the receive FIFO
+Writing a 1 to this bit position clears the receive FIFO
+  0 - Do nothing
+  1 - Clear the receive FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Enable_Intr": {"access": "write-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable interrupt for the AXI UART Lite
+  0 - Disable interrupt signal
+  1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"STAT_REG": {"description": "UART Lite status register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_FIFO_Valid_Data": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO has data.
+  0 - Receive FIFO is empty
+  1 - Receive FIFO has data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RX_FIFO_Full": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO is full.
+  0 - Receive FIFO is not full
+  1 - Receive FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Empty": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is empty.
+  0 - Transmit FIFO is not empty
+  1 - Transmit FIFO is empty
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Full": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is full.
+  0 - Transmit FIFO is not full
+  1 - Transmit FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Intr_Enabled": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that interrupts is enabled.
+  0 - Interrupt is disabled
+  1 - Interrupt is enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Overrun_Error": {"access": "read-only",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a overrun error has occurred after the last time the status register was read. Overrun is when a new character has been received but the receive FIFO is full. The received character is ignored and not written into the receive FIFO. This bit is cleared when the status register is read.      0 - No overrun error has occurred      1 - Overrun error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Frame_Error": {"access": "read-only",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a frame error has occurred after the last time the status register was read. Frame error is defined as detection of a stop bit with the value 0. The receive character is ignored and not written to the receive FIFO. This bit is cleared when the status register is read.      0 - No frame error has occurred   1 - Frame error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Parity_Error": {"access": "read-only",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a parity error has occurred after the last time the status register was read. If the UART is configured without any parity handling, this bit is always 0. The received character is written into the receive FIFO. This bit is cleared when the status register is read.      0 - No parity error has occurred      1 - Parity error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {},
+"mig_7series_0": {},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:47.116
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:47.124
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf ], Result: [null, {"microblaze_0": "snake_i/microblaze_0:snake_i/microblaze_0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:47.126
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:47.151
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf], Result: [null, {"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_1": {"hier_name": "axi_gpio_1",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_2": {"hier_name": "axi_gpio_2",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_intc_0": {"hier_name": "axi_intc_0",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"axi_tft_0": {"hier_name": "axi_tft_0",
+"type": "axi_tft",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_timer_0": {"hier_name": "axi_timer_0",
+"type": "axi_timer",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"mig_7series_0": {"hier_name": "mig_7series_0",
+"type": "mig_7series",
+"version": "4.2",
+"ip_type": "MEMORY_CNTLR",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"rst_mig_7series_0_81M": {"hier_name": "rst_mig_7series_0_81M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"xlconcat_0": {"hier_name": "xlconcat_0",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:47.391
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:07:47.397
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_0/system.hdf], Result: [null, {"device": "7a100t",
+"family": "artix7",
+"timestamp": "Mon Jun  6 12:29:03 2022",
+"vivado_version": "2019.1",
+"part": "xc7a100tcsg324-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:08:11.512
+!MESSAGE XSCT Command: [::hsi::utils::closehw D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_2/system.hdf], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-06-08 21:08:11.523
+!MESSAGE XSCT command with result: [::hsi::utils::closehw D:/codex/vivadocode/project_6_snake_1/snake_1/snake_1.sdk/snake_wrapper_hw_platform_2/system.hdf], Result: [null, ]. Thread: ModalContext

@@ -1,0 +1,1138 @@
+12:17:18 **** Build of project hello_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_4/src"
+make -C microblaze_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_9/src"
+make -C microblaze_0/libsrc/intc_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tft_v6_1/src"
+make -C microblaze_0/libsrc/tft_v6_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_4/src"
+make -C microblaze_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_9/src"
+make -C microblaze_0/libsrc/intc_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tft_v6_1/src"
+make -C microblaze_0/libsrc/tft_v6_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tft"
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+12:17:25 **** Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3116	    336	   3108	   6560	   19a0	hello.elf
+'Finished building: hello.elf.size'
+' '
+
+**** Build of configuration Debug for project snake ****
+
+Nothing to build for project snake
+12:18:33 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+../src/snake.c: In function 'CreatFood':
+../src/snake.c:310:43: error: 'head' undeclared (first use in this function); did you mean 'fread'?
+    if(count % 3 == 0) CreatBomb(fd, bomb, head);
+                                           ^~~~
+                                           fread
+../src/snake.c:310:43: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/snake.o] Error 1
+12:19:14 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+'Finished building: ../src/snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./src/snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+e:/vivado/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: snake.elf section `.heap' will not fit in region `microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem'
+e:/vivado/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: region `microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem' overflowed by 1616 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: snake.elf] Error 1
+12:51:23 **** Build of project hello_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_4/src"
+make -C microblaze_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_9/src"
+make -C microblaze_0/libsrc/intc_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tft_v6_1/src"
+make -C microblaze_0/libsrc/tft_v6_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_4/src"
+make -C microblaze_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_9/src"
+make -C microblaze_0/libsrc/intc_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tft_v6_1/src"
+make -C microblaze_0/libsrc/tft_v6_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tft"
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+12:51:30 **** Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3116	    336	   3108	   6560	   19a0	hello.elf
+'Finished building: hello.elf.size'
+' '
+
+**** Build of configuration Debug for project snake ****
+
+Nothing to build for project snake
+12:52:01 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+../src/snake.c: In function 'CreatFood':
+../src/snake.c:310:43: error: 'head' undeclared (first use in this function); did you mean 'fread'?
+    if(count % 3 == 0) CreatBomb(fd, bomb, head);
+                                           ^~~~
+                                           fread
+../src/snake.c:310:43: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/snake.o] Error 1
+12:52:21 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+'Finished building: ../src/snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./src/snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29784	   1324	   3228	  34336	   8620	snake.elf
+'Finished building: snake.elf.size'
+' '
+17:14:16 **** Clean-only build of configuration Debug for project snake ****
+make clean 
+rm -rf  ./src/snake.o  ./src/snake.d  snake.elf.size  snake.elf
+' '
+17:14:17 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+'Finished building: ../src/snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./src/snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29788	   1324	   3232	  34344	   8628	snake.elf
+'Finished building: snake.elf.size'
+' '
+16:57:38 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+'Finished building: ../src/snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./src/snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30036	   1324	   3240	  34600	   8728	snake.elf
+'Finished building: snake.elf.size'
+' '
+17:46:20 **** Clean-only build of configuration Debug for project snake ****
+make clean 
+rm -rf  ./src/snake.o  ./src/snake.d  snake.elf.size  snake.elf
+' '
+17:46:20 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+../src/snake.c:10:10: fatal error: gameover.h: No such file or directory
+ #include "gameover.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/snake.o] Error 1
+17:46:23 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+'Finished building: ../src/snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./src/snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+e:/vivado/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: snake.elf section `.rodata' will not fit in region `microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem'
+e:/vivado/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: region `microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem' overflowed by 642800 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: snake.elf] Error 1
+17:46:36 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+'Finished building: ../src/snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./src/snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19132	   1324	   3240	  23696	   5c90	snake.elf
+'Finished building: snake.elf.size'
+' '
+17:57:37 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+'Finished building: ../src/snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./src/snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+e:/vivado/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: snake.elf section `.rodata' will not fit in region `microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem'
+e:/vivado/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: region `microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem' overflowed by 642832 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: snake.elf] Error 1
+17:58:58 **** Clean-only build of configuration Debug for project snake ****
+make clean 
+rm -rf  ./src/snake.o  ./src/snake.d  snake.elf.size  snake.elf
+' '
+17:58:58 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+../src/snake.c:10:10: fatal error: gameover.h: No such file or directory
+ #include "gameover.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/snake.o] Error 1
+17:59:03 **** Clean-only build of configuration Debug for project snake ****
+make clean 
+rm -rf  ./src/snake.o  ./src/snake.d  snake.elf.size  snake.elf
+' '
+17:59:03 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+e:/vivado/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: snake.elf section `.rodata' will not fit in region `microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem'
+e:/vivado/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: region `microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem' overflowed by 642832 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:37: snake.elf] Error 1
+17:59:26 **** Clean-only build of configuration Debug for project snake ****
+make clean 
+rm -rf  ./snake.o  ./snake.d  snake.elf.size  snake.elf
+' '
+17:59:26 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+../src/snake.c:10:10: fatal error: gameover.h: No such file or directory
+ #include "gameover.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/snake.o] Error 1
+18:00:26 **** Auto Build of project hello_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_4/src"
+make -C microblaze_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_9/src"
+make -C microblaze_0/libsrc/intc_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tft_v6_1/src"
+make -C microblaze_0/libsrc/tft_v6_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_4/src"
+make -C microblaze_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_9/src"
+make -C microblaze_0/libsrc/intc_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tft_v6_1/src"
+make -C microblaze_0/libsrc/tft_v6_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tft"
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+18:00:36 **** Clean-only build of configuration Debug for project hello ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  hello.elf.size  hello.elf
+' '
+18:00:36 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3116	    336	   3108	   6560	   19a0	hello.elf
+'Finished building: hello.elf.size'
+' '
+18:00:37 **** Clean-only build of configuration Debug for project snake ****
+make clean 
+rm -rf  ./src/snake.o  ./snake.o  ./src/snake.d  ./snake.d  snake.elf.size  snake.elf
+' '
+18:00:38 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+'Finished building: ../src/snake.c'
+' '
+make: *** No rule to make target 'snake.o', needed by 'snake.elf'.  Stop.
+18:01:09 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+'Finished building: ../src/snake.c'
+' '
+make: *** No rule to make target 'snake.o', needed by 'snake.elf'.  Stop.
+18:04:24 **** Auto Build of project hello_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_4/src"
+make -C microblaze_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_9/src"
+make -C microblaze_0/libsrc/intc_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tft_v6_1/src"
+make -C microblaze_0/libsrc/tft_v6_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_4/src"
+make -C microblaze_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_9/src"
+make -C microblaze_0/libsrc/intc_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tft_v6_1/src"
+make -C microblaze_0/libsrc/tft_v6_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tft"
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+18:04:33 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3116	    336	   3108	   6560	   19a0	hello.elf
+'Finished building: hello.elf.size'
+' '
+18:04:34 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+'Finished building: ../src/snake.c'
+' '
+make: *** No rule to make target 'snake.o', needed by 'snake.elf'.  Stop.
+18:05:14 **** Clean-only build of configuration Debug for project snake ****
+make clean 
+rm -rf  ./src/snake.o  ./snake.o  ./src/snake.d  ./snake.d  snake.elf.size  snake.elf
+' '
+18:05:15 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+../snake.c:16:10: fatal error: ../gameover.h: No such file or directory
+ #include "../gameover.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [subdir.mk:20: snake.o] Error 1
+18:05:38 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+e:/vivado/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: snake.elf section `.rodata' will not fit in region `microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem'
+e:/vivado/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: region `microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem' overflowed by 642832 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:37: snake.elf] Error 1
+18:07:37 **** Clean-only build of configuration Debug for project snake ****
+make clean 
+rm -rf  ./snake.o  ./snake.d  snake.elf.size  snake.elf
+' '
+18:07:37 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 769296	   1324	   2216	 772836	  bcae4	snake.elf
+'Finished building: snake.elf.size'
+' '
+18:17:00 **** Clean-only build of configuration Debug for project snake ****
+make clean 
+rm -rf  ./snake.o  ./snake.d  snake.elf.size  snake.elf
+' '
+18:17:00 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 769296	   1324	   2212	 772832	  bcae0	snake.elf
+'Finished building: snake.elf.size'
+' '
+18:17:08 **** Clean-only build of configuration Debug for project snake ****
+make clean 
+rm -rf  ./snake.o  ./snake.d  snake.elf.size  snake.elf
+' '
+18:17:08 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+../src/snake.c:16:10: fatal error: gameover.h: No such file or directory
+ #include "gameover.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/snake.o] Error 1
+18:17:14 **** Clean-only build of configuration Debug for project snake ****
+make clean 
+rm -rf  ./src/snake.o  ./snake.o  ./src/snake.d  ./snake.d  snake.elf.size  snake.elf
+' '
+18:17:15 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+'Finished building: ../src/snake.c'
+' '
+make: *** No rule to make target 'snake.o', needed by 'snake.elf'.  Stop.
+18:17:45 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+'Finished building: ../src/snake.c'
+' '
+make: *** No rule to make target 'snake.o', needed by 'snake.elf'.  Stop.
+18:17:59 **** Clean-only build of configuration Debug for project snake ****
+make clean 
+rm -rf  ./src/snake.o  ./snake.o  ./src/snake.d  ./snake.d  snake.elf.size  snake.elf
+' '
+18:17:59 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+../snake.c:16:10: fatal error: gameover.h: No such file or directory
+ #include "gameover.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [subdir.mk:20: snake.o] Error 1
+18:18:02 **** Clean-only build of configuration Debug for project snake ****
+make clean 
+rm -rf  ./snake.o  ./snake.d  snake.elf.size  snake.elf
+' '
+18:18:02 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+'Finished building: ../src/snake.c'
+' '
+make: *** No rule to make target 'snake.o', needed by 'snake.elf'.  Stop.
+18:19:16 **** Clean-only build of configuration Debug for project snake ****
+make clean 
+rm -rf  ./src/snake.o  ./snake.o  ./src/snake.d  ./snake.d  snake.elf.size  snake.elf
+' '
+18:19:16 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+../src/snake.c:16:10: fatal error: gameover.h: No such file or directory
+ #include "gameover.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/snake.o] Error 1
+18:19:18 **** Clean-only build of configuration Debug for project snake ****
+make clean 
+rm -rf  ./src/snake.o  ./snake.o  ./src/snake.d  ./snake.d  snake.elf.size  snake.elf
+' '
+18:19:19 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 769296	   1324	   2212	 772832	  bcae0	snake.elf
+'Finished building: snake.elf.size'
+' '
+18:27:43 **** Clean-only build of configuration Debug for project snake ****
+make clean 
+rm -rf  ./snake.o  ./snake.d  snake.elf.size  snake.elf
+' '
+18:27:43 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+../src/snake.c:16:10: fatal error: gameover.h: No such file or directory
+ #include "gameover.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/snake.o] Error 1
+18:30:02 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+'Finished building: ../src/snake.c'
+' '
+make: *** No rule to make target 'snake.o', needed by 'snake.elf'.  Stop.
+19:21:34 **** Clean-only build of configuration Debug for project snake ****
+make clean 
+rm -rf  ./src/snake.o  ./snake.o  ./src/snake.d  ./snake.d  snake.elf.size  snake.elf
+' '
+19:21:35 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+'Finished building: ../src/snake.c'
+' '
+make: *** No rule to make target 'snake.o', needed by 'snake.elf'.  Stop.
+19:22:35 **** Clean-only build of configuration Debug for project snake ****
+make clean 
+rm -rf  ./src/snake.o  ./snake.o  ./src/snake.d  ./snake.d  snake.elf.size  snake.elf
+' '
+19:22:36 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../src/snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/snake.d" -MT"src/snake.o" -o "src/snake.o" "../src/snake.c"
+'Finished building: ../src/snake.c'
+' '
+make: *** No rule to make target 'snake.o', needed by 'snake.elf'.  Stop.
+19:23:03 **** Clean-only build of configuration Debug for project snake ****
+make clean 
+rm -rf  ./src/snake.o  ./snake.o  ./src/snake.d  ./snake.d  snake.elf.size  snake.elf
+' '
+19:23:04 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+../snake.c:16:10: fatal error: gameover.h: No such file or directory
+ #include "gameover.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [subdir.mk:20: snake.o] Error 1
+19:23:06 **** Clean-only build of configuration Debug for project snake ****
+make clean 
+rm -rf  ./snake.o  ./snake.d  snake.elf.size  snake.elf
+' '
+19:23:07 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/vivado2019.1/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: snake.elf section `.rodata' will not fit in region `microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem'
+d:/vivado2019.1/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: region `microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem' overflowed by 641808 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:37: snake.elf] Error 1
+19:24:01 **** Clean-only build of configuration Debug for project snake ****
+make clean 
+rm -rf  ./snake.o  ./snake.d  snake.elf.size  snake.elf
+' '
+19:24:02 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 769296	   1324	   2216	 772836	  bcae4	snake.elf
+'Finished building: snake.elf.size'
+' '
+19:44:49 **** Clean-only build of configuration Debug for project snake ****
+make clean 
+rm -rf  ./snake.o  ./snake.d  snake.elf.size  snake.elf
+' '
+19:44:50 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 769296	   1324	   2216	 772836	  bcae4	snake.elf
+'Finished building: snake.elf.size'
+' '
+19:45:14 **** Incremental Build of configuration Debug for project snake ****
+make all 
+make: Nothing to be done for 'all'.
+19:46:46 **** Incremental Build of configuration Debug for project snake ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:25 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+../snake.c: In function 'GameOver_Show':
+../snake.c:388:6: warning: variable 'color' set but not used [-Wunused-but-set-variable]
+  u32 color,addr;
+      ^~~~~
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 769196	   1324	   2212	 772732	  bca7c	snake.elf
+'Finished building: snake.elf.size'
+' '
+19:54:45 **** Incremental Build of configuration Debug for project snake ****
+make all 
+make: Nothing to be done for 'all'.
+19:56:16 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 769288	   1324	   2216	 772828	  bcadc	snake.elf
+'Finished building: snake.elf.size'
+' '
+19:56:46 **** Incremental Build of configuration Debug for project snake ****
+make all 
+make: Nothing to be done for 'all'.
+20:05:59 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  63256	   1324	   2216	  66796	  104ec	snake.elf
+'Finished building: snake.elf.size'
+' '
+20:06:07 **** Incremental Build of configuration Debug for project snake ****
+make all 
+make: Nothing to be done for 'all'.
+20:09:07 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  63256	   1324	   2216	  66796	  104ec	snake.elf
+'Finished building: snake.elf.size'
+' '
+20:09:18 **** Incremental Build of configuration Debug for project snake ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:50 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  63256	   1324	   2216	  66796	  104ec	snake.elf
+'Finished building: snake.elf.size'
+' '
+20:10:58 **** Incremental Build of configuration Debug for project snake ****
+make all 
+make: Nothing to be done for 'all'.
+20:14:30 **** Incremental Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 192088	   1324	   2216	 195628	  2fc2c	snake.elf
+'Finished building: snake.elf.size'
+' '
+20:16:07 **** Incremental Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 769288	   1324	   2216	 772828	  bcadc	snake.elf
+'Finished building: snake.elf.size'
+' '
+20:17:19 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 769276	   1324	   2212	 772812	  bcacc	snake.elf
+'Finished building: snake.elf.size'
+' '
+20:17:38 **** Incremental Build of configuration Debug for project snake ****
+make all 
+make: Nothing to be done for 'all'.
+20:20:13 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 710492	   1324	   2212	 714028	  ae52c	snake.elf
+'Finished building: snake.elf.size'
+' '
+20:20:43 **** Incremental Build of configuration Debug for project snake ****
+make all 
+make: Nothing to be done for 'all'.
+20:21:25 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 710492	   1324	   2212	 714028	  ae52c	snake.elf
+'Finished building: snake.elf.size'
+' '
+20:21:48 **** Incremental Build of configuration Debug for project snake ****
+make all 
+make: Nothing to be done for 'all'.
+20:24:34 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 710860	   1324	   2212	 714396	  ae69c	snake.elf
+'Finished building: snake.elf.size'
+' '
+20:25:17 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+1400148	   1324	   2212	1403684	 156b24	snake.elf
+'Finished building: snake.elf.size'
+' '
+20:25:57 **** Incremental Build of configuration Debug for project snake ****
+make all 
+make: Nothing to be done for 'all'.
+20:27:36 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+1400156	   1324	   2212	1403692	 156b2c	snake.elf
+'Finished building: snake.elf.size'
+' '
+20:28:13 **** Incremental Build of configuration Debug for project snake ****
+make all 
+make: Nothing to be done for 'all'.
+22:06:02 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+1400156	   1324	   2212	1403692	 156b2c	snake.elf
+'Finished building: snake.elf.size'
+' '
+22:39:27 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+1400156	   1324	   2212	1403692	 156b2c	snake.elf
+'Finished building: snake.elf.size'
+' '
+22:40:07 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+1400156	   1324	   2212	1403692	 156b2c	snake.elf
+'Finished building: snake.elf.size'
+' '

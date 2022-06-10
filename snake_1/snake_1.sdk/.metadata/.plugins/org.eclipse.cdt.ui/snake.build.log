@@ -1,0 +1,21 @@
+22:40:07 **** Auto Build of configuration Debug for project snake ****
+make all 
+'Building file: ../snake.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"snake.o" -I../../hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"snake.d" -MT"snake.o" -o "snake.o" "../snake.c"
+'Finished building: ../snake.c'
+' '
+'Building target: snake.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "snake.elf"  ./snake.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: snake.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size snake.elf  |tee "snake.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+1400156	   1324	   2212	1403692	 156b2c	snake.elf
+'Finished building: snake.elf.size'
+' '
+
+22:40:40 Build Finished (took 32s.596ms)
+
